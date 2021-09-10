@@ -1,0 +1,37 @@
+a[target] {
+    color: red;
+}
+
+a[href^="https://www.google.com"] {
+    color: green;
+}
+
+#second-div p:nth-child(2) {
+    color: red;
+}
+
+#second-div p:nth-child(3) {
+    color: blue;
+}
+
+#second-div p:nth-child(4) {
+    color: red;
+}
+
+#second-div p:nth-child(5) {
+    color: blue;
+}
+
+#second-div p:nth-child(6) {
+    color: red;
+}
+
+#first-div>p::after {
+    content: '-NEW';
+    color: yellow;
+}
+
+p:nth-child(8):hover {
+    font-style: italic;
+    cursor: pointer;
+}
